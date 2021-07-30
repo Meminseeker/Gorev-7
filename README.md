@@ -1,5 +1,12 @@
 # Gorev-7
 
+***Önemli Not:*** `valarray` ileri düzey C++ yazılımcılarının bile duymamış olabileceği kullanılmayan ve derleyici desteğinin kaldırıldığı bir standart kütüphane.
+Bu görevi en sık kullanılan yapıyı (`vector`) kullanarak tamamlayabilirsiniz.
+`valarray` kullanmanın avantajı matris işlemlerini ve dökümantasyon kullanımını pekiştirmek denilebilir.
+Ayrıntılı açıklama için [`valarray` vs `vector` sorusuna verilen cevaba](https://stackoverflow.com/a/1602787/12447766) başvurabilirsiniz.
+
+---
+
 7\. görev *command line argument* ve `valarray` kullanımı ile ilgili
 Kullanıcıdan argüman olarak bir katsayı, satır sayısı ve matris için bir sayı dizisi alıyoruz.
 Daha sonra bu dizi ve satır sayısı ile matrisi oluşturup **ilk satırı** katsayı ile çarparak ekrana yazdırıyoruz.
