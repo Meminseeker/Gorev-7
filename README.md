@@ -21,6 +21,13 @@ int main(int argc, char* argv[])
 Burada `argc` argüman sayısı, `argv` ise argümanları tutan cstring array oluyor.
 Mesela `./test.exe example argument` için **argc=3, argv[0]="./test.exe", argv[1]="example"**, 2. argümanın uzunluğu ise **sizeof(argv[2])/sizeof(char)=8** olur.
 
+```
+örnek input : ./test 2 3 4 5 6 7 8 9
+örnek output : 8 10
+               6 7
+               8 9
+```
+
 `valarray` kullanmamızın sebebi [vektör işlemleri](https://en.wikipedia.org/wiki/Vector_processor#Description) yapabilmeye olanak sağlaması. Dokümantasyonuna [buradan](https://en.cppreference.com/w/cpp/numeric/valarray) erişebilirsiniz.
 
 
